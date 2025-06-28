@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root():
-    return "<h1>Hello from FastAPI on Render!</h1>"
+    return "<h1>Hello Again from FastAPI on Render!</h1>"
 
 @app.get("/ping")
 async def ping():
